@@ -1,0 +1,33 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://Rachaels19.github.io/RKStest19/test-vb-project/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "test VB project" ] },
+    "items": [
+      {
+        "id": "https://Rachaels19.github.io/RKStest19/test-vb-project/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 1113.0,
+        "items": [
+          {
+            "id": "https://Rachaels19.github.io/RKStest19/test-vb-project/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://Rachaels19.github.io/RKStest19/test-vb-project/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://dlib.indiana.edu/avannotate/bouchard/une_nation_est_nee__540p_-high.mp4",
+                    "type": "Video",
+                    "format": "video/mp4",
+                    "duration": 1113.0
+                },
+                "target": "https://Rachaels19.github.io/RKStest19/test-vb-project/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
